@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TaiToso\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj": {}
+    "C:\\Users\\Guilherme Farinela\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TaiToso\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj": {
+    "C:\\Users\\Guilherme Farinela\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TaiToso\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj",
+        "projectUniqueName": "C:\\Users\\Guilherme Farinela\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj",
         "projectName": "EmprestimoLivros",
-        "projectPath": "C:\\Users\\TaiToso\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj",
-        "packagesPath": "C:\\Users\\TaiToso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TaiToso\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\obj\\",
+        "projectPath": "C:\\Users\\Guilherme Farinela\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\EmprestimoLivros.csproj",
+        "packagesPath": "C:\\Users\\Guilherme Farinela\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guilherme Farinela\\Desktop\\Aplicações\\EmprestimoLivros\\EmprestimoLivros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\TaiToso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Guilherme Farinela\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

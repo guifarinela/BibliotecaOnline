@@ -1,17 +1,37 @@
-﻿@{
+﻿@model UsuariosModel
+@{
     ViewData["title"] = "Login";
+    Layout = "";
 }
-
-<div class="container accordion-header">
-    <form>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/stylelogin.css" asp-append-version="true" />
+    </head>
+    <body>
+        <div class="conteudo">
+            <div class="imagem">
+                <img src="/img/loginlivro.jpg" />
+            </div>
+            <div class="formulario">
+                <h1>Login</h1>
+                <form method="post" asp-controller="Login" asp-action="Login">
+                    <label>E-mail: </label>
+                    <input type="email" name="Email" asp-for="Email" id="Email: "/>
+                    <label>Senha: </label>
+                    <input type="password" name="Password" asp-for="Password" id="Password: " />
+                    <div class="btn">
+                        <button asp-controller="Login" asp-action="Login">Entrar</button>
+                    </div>
+                    <div class="link">
+                        <a class="a" asp-controller="Login" asp-action="Cadastro">Cadastrar-se</a>
+                        <a class="a" href="#">Esqueceu a senha</a>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-</div>
+    </body>
+</html>

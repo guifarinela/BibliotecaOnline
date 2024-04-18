@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url("../img/Background.jpg");
+}
+
+.imagem {
+    height: 600px;
+    width: 500px;
+    background-color: black;
+}
+
+input[type="text" i] {
+    padding-block: 0px;
+    padding-inline: 0px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 1s ease;
+}
+
+html:hover{
+    background-color:rgb(21, 18, 18);
+}
+
+.conteudo {
+    display: flex;
+    background-color: black;
+}
+
+.formulario {
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario h1 {
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    color: rgb(29, 28, 28);
+    transition: all ease;
+}
+
+.formulario h1:hover{
+    color: rgb(76, 32, 169);
+    border-color:rgb(76, 32, 169);
+}
+
+form label {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: rgb(29, 28, 28);
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    margin-bottom: 4rem;
+    height: 3rem;
+    border: none;
+    border: 2px solid rgb(29, 28, 28);
+    background-color: transparent;
+    outline: none;
+    transition: all 300ms ease;
+}
+
+form input:hover {
+    border: 1px solid #C13584;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    margin-bottom: 0.4rem;
+    height: 4rem;
+    width: 60%;
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #fd1d1d);
+}
+
+.link{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.a{
+    margin-left: 20px;
+    padding-top: 40px;
+}
+

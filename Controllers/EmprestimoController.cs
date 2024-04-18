@@ -27,6 +27,7 @@ namespace EmprestimoLivros.Controllers
         public IActionResult Cadastrar()
         {
             return View();
+            
         }
 
         [HttpPost]
